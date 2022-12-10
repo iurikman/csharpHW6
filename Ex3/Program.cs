@@ -57,11 +57,13 @@ int minValue = GetNumber("Введите минимальное число ма�
 int maxValue = GetNumber("Введите максимальное число массива");
 int length = GetNumber("Введите длину массива");
 int [] array = GetArray(minValue, maxValue, length);
+Console.WriteLine();
 Console.WriteLine("Исходный массив:");
-
 PrintArray(array);
 Console.WriteLine(" ");
 int[] arrayCopy = ArrayCopy(array);
 Console.WriteLine(" ");
 Console.WriteLine("Новый массив:");
 PrintArray(arrayCopy);
+Console.WriteLine();
+

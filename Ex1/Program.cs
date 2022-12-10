@@ -46,11 +46,12 @@ void GetCountOfPositiveNumbers(string message)
             printNumbers += $"{result}, ";
         }
 
+    }
+        Console.WriteLine();
         Console.WriteLine(printNumbers);
         Console.WriteLine();
         Console.WriteLine($"Количество положительных числел: {countPositiveNumbers}");
-
-    }
+        Console.WriteLine();
 }
 
 GetCountOfPositiveNumbers("Введите числа через enter. В конце ввода введите end ");
